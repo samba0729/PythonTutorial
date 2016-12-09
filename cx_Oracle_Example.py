@@ -1,7 +1,7 @@
 import cx_Oracle
 
 
-con = cx_Oracle.connect('system/a123456@localhost:1521/XE')
+con = cx_Oracle.connect('username/password@localhost:1521/XE')
 print (con.version)
 cur = con.cursor()
 cur.execute('SELECT 2 FROM DUAL')
