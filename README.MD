@@ -1,2 +1,2 @@
-This repository has all the example and tutorials  for python
+This repository has some examples and tutorials  for python
  
