@@ -1,6 +1,6 @@
 This tutorial helps  python programs to connect with Oracle DB in Windows. We will utilize cx_oracle.This tutorial is using phython 2.7, Same steps can be used for higher versions.
 
-Prerequisites :
+Prerequisites:
 
 1) Make sure you have  Python 2.7 64 bit and Set your Environmental variables as needed
 
@@ -17,6 +17,20 @@ Installation Steps:
 3) Download and install the appropriate CX_oracle from the below location  https://pypi.python.org/pypi/cx_Oracle/5.2.1
    I downloaded "cx_Oracle-5.2.1-12c.win-amd64-py2.7"
    
-4) Run the sample program(cx_Oracle_Example.py) to test your python program connecting to oracle DB 
-  
+4) Run the sample program(cx_Oracle_Example.py) to test your python program connecting to oracle DB is successful or not
+
+====================
+====================
+FetchDBRecord.py 
+
+This class will fetch a single record from DB.  It will explain how to get each read desired columns from the record.
+
+		a. Use '\' as delimiter for ''( Single quotes )
+		b. To read the columns from result set, Index start from 0 
+
+           Ex: select * from HR.EMPLOYEES where EMPLOYEE_ID = \'100\''
+
+
+
+ 
  
