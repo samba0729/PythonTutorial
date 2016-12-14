@@ -28,7 +28,7 @@ This class will fetch a single record from DB.  It will explain how to get each 
 		a. Use '\' as delimiter for ''( Single quotes )
 		b. To read the columns from result set, Index start from 0 
 
-select * from HR.EMPLOYEES where EMPLOYEE_ID = '100';. 
+           Ex: select * from HR.EMPLOYEES where EMPLOYEE_ID = \'100\''
 
 
 
